@@ -5,7 +5,7 @@ public class Student {
     String name;
     int english;
     int math;
-
+    static int pass=60;
     public Student(String name, int english, int math) {
         this.name = name;
         this.english = english;

@@ -1,9 +1,7 @@
 package com.kotlin
 
-import java.util.*
-import kotlin.math.max
-
 class Student(var name :String?,var math: Int,var english:Int) {
+
     fun print(){
         println("$name\t$english\t$math\t${getAverage()}\t${passOrFailed()}\t${grading()}")
     }
