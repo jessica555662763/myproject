@@ -11,13 +11,19 @@ public class Student {
         this.english = english;
         this.math = math;
     }
+public void print(){
+        int average = getAverage();
+    System.out.println(name+"\t"+english+"\t"+math+"\t"+getAverage()+"\t"+((getAverage()>=pass)?"PASS":"FAILED"));
+    char grading='F';
+
+}
 
     public int highest(){
         return (english>math)?english:math;
     }
     public void grading(){
         int average =getAverage();
-        System.out.println(name+"\t"+english+"\t"+math+"\t"+(getAverage()>=60?"PASS":"FALIED"));
+        System.out.println(name+"\t"+english+"\t"+math+"\t"+(getAverage()>=pass?"PASS":"FALIED"));
         char grading ='F';
         switch(average/10){
             case 10:

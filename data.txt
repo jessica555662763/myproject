@@ -1,0 +1,5 @@
+abcIntelliJ IDEA是一種商業化銷售的Java整合式開發環境（Integrated Development Environment，IDE）工具軟體，
+由JetBrains軟體公司（前稱
+為IntelliJ）開發，提供Apache 2.0開放式授權的社區版本以及專有
+軟體的商業版本，開發者可選擇其
+所需來下載使用。
